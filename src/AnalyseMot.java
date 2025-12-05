@@ -2,10 +2,6 @@ import java.util.Scanner;
 
 /**
  * TP2 - EXERCICE 3 : ANALYSE DE MOT
- * Programme qui affiche des informations sur un mot :
- * - Première lettre
- * - Dernière lettre
- * - Nombre de lettres
  */
 public class AnalyseMot {
     public static void main(String[] args) {

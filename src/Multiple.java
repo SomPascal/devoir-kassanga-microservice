@@ -26,7 +26,7 @@ public class Multiple {
             premierMultiple = false;
         }
 
-        System.out.println(); // Nouvelle ligne à la fin
+        System.out.println();
 
         scanner.close();
     }

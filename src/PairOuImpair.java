@@ -12,12 +12,10 @@ public class PairOuImpair {
         System.out.print("Veuillez saisir un chiffre : ");
         int nombre = scanner.nextInt();
 
-        // Déterminer si le nombre est pair ou impair
         if (nombre % 2 == 0) {
             System.out.println("\n> nombre pair");
             System.out.print("> ");
 
-            // Afficher les 10 nombres pairs suivants
             for (int i = 0; i < 10; i++) {
                 System.out.print(nombre + (i * 2));
                 if (i < 9) {
@@ -28,7 +26,6 @@ public class PairOuImpair {
             System.out.println("\n> nombre impair");
             System.out.print("> ");
 
-            // Afficher les 10 nombres impairs suivants
             for (int i = 0; i < 10; i++) {
                 System.out.print(nombre + (i * 2));
                 if (i < 9) {
@@ -37,7 +34,7 @@ public class PairOuImpair {
             }
         }
 
-        System.out.println(); // Nouvelle ligne à la fin
+        System.out.println();
 
         scanner.close();
     }

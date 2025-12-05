@@ -15,7 +15,6 @@ public class ProduitSigne {
         System.out.print("Chiffre 2 --> ");
         double chiffre2 = scanner.nextDouble();
 
-        // Déterminer le signe sans calculer le produit
         if (chiffre1 == 0 || chiffre2 == 0) {
             System.out.println("----- produit nul");
         } else if ((chiffre1 > 0 && chiffre2 > 0) || (chiffre1 < 0 && chiffre2 < 0)) {

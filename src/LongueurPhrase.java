@@ -3,10 +3,6 @@ import java.util.Scanner;
 /**
  * TP2 - EXERCICE 2 : LONGUEUR DE PHRASE
  * Programme qui catégorise une phrase selon sa longueur
- * 
- * - Phrase courte : < 20 caractères
- * - Phrase de longueur moyenne : 20-49 caractères
- * - Phrase longue : >= 50 caractères
  */
 public class LongueurPhrase {
     public static void main(String[] args) {

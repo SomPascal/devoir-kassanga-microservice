@@ -8,7 +8,6 @@ public class Devinette {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Tirer un nombre au hasard entre 1 et 10
         int nbAleatoire = (int) (Math.random() * 10 + 1);
 
         int nbEssais = 0;
@@ -17,7 +16,6 @@ public class Devinette {
         System.out.println("=== JEU DE DEVINETTE ===");
         System.out.println("Devinez le nombre entre 1 et 10 !");
 
-        // Boucle tant que le joueur n'a pas trouvé
         do {
             System.out.print("\nVotre proposition : ");
             proposition = scanner.nextInt();
@@ -31,7 +29,6 @@ public class Devinette {
 
         } while (proposition != nbAleatoire);
 
-        // Message de réussite
         System.out.println("\n🎉 Bravo ! Vous avez trouvé le nombre " + nbAleatoire + " !");
         System.out.println("Nombre d'essais : " + nbEssais);
 
